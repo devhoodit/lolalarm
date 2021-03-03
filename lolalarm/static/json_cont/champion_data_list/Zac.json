@@ -1,0 +1,2264 @@
+{
+    "type": "champion",
+    "format": "standAloneComplex",
+    "version": "10.21.1",
+    "data": {
+        "Zac": {
+            "id": "Zac",
+            "key": "154",
+            "name": "\uc790\ud06c",
+            "title": "\ube44\ubc00 \ubcd1\uae30",
+            "image": {
+                "full": "Zac.png",
+                "sprite": "champion4.png",
+                "group": "champion",
+                "x": 240,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "skins": [
+                {
+                    "id": "154000",
+                    "num": 0,
+                    "name": "default",
+                    "chromas": true
+                },
+                {
+                    "id": "154001",
+                    "num": 1,
+                    "name": "\ud2b9\uc218 \ubcd1\uae30 \uc790\ud06c",
+                    "chromas": false
+                },
+                {
+                    "id": "154002",
+                    "num": 2,
+                    "name": "\uc218\uc601\uc7a5 \ud30c\ud2f0 \uc790\ud06c",
+                    "chromas": false
+                },
+                {
+                    "id": "154006",
+                    "num": 6,
+                    "name": "SKT T1 \uc790\ud06c",
+                    "chromas": false
+                }
+            ],
+            "lore": "\uc790\ud06c\ub294 \ud654\ud559\uacf5\ud559 \uc9c0\uce35\uc744 \ub530\ub77c \ud750\ub978 \ub3c5\uc131\ubb3c\uc9c8\uc774 \uc790\uc6b4\uc758 \uc9c0\ud558\ub3d9\uad74 \uae4a\uc740 \uacf3\uc5d0 \uc704\uce58\ud55c \uc6c5\ub369\uc774\uc5d0 \ubaa8\uc5ec \ub9cc\ub4e4\uc5b4\uc9c4 \uc0dd\uba85\uccb4\uc774\ub2e4. \uc774\ucc98\ub7fc \ubcc0\ubcc0\uce58 \ubabb\ud55c \ud0dc\uc0dd\uc5d0\ub3c4 \ubd88\uad6c\ud558\uace0 \uc790\ud06c\ub294 \uc6d0\uc2dc\uc801\uc778 \uc9c4\ud759\uc758 \uc0c1\ud0dc\uc5d0\uc11c \uc9c0\uc131\uc744 \uac16\ucd98 \uc874\uc7ac\ub85c \uc131\uc7a5\ud588\ub2e4. \uadf8\ub294 \uc790\uc6b4\uc758 \ubc30\uad00 \uc18d\uc5d0 \uc0b4\uba74\uc11c \ub3c4\uc6c0\uc774 \ud544\uc694\ud55c \uc774\ub4e4\uc744 \ub3d5\uac70\ub098 \uc790\uc6b4\uc758 \ub9dd\uac00\uc9c4 \uae30\ubc18\uc2dc\uc124\uc744 \uc7ac\uac74\ud558\uae30 \uc704\ud574 \uc774\ub530\uae08 \ubaa8\uc2b5\uc744 \ub4dc\ub7ec\ub0b8\ub2e4.",
+            "blurb": "\uc790\ud06c\ub294 \ud654\ud559\uacf5\ud559 \uc9c0\uce35\uc744 \ub530\ub77c \ud750\ub978 \ub3c5\uc131\ubb3c\uc9c8\uc774 \uc790\uc6b4\uc758 \uc9c0\ud558\ub3d9\uad74 \uae4a\uc740 \uacf3\uc5d0 \uc704\uce58\ud55c \uc6c5\ub369\uc774\uc5d0 \ubaa8\uc5ec \ub9cc\ub4e4\uc5b4\uc9c4 \uc0dd\uba85\uccb4\uc774\ub2e4. \uc774\ucc98\ub7fc \ubcc0\ubcc0\uce58 \ubabb\ud55c \ud0dc\uc0dd\uc5d0\ub3c4 \ubd88\uad6c\ud558\uace0 \uc790\ud06c\ub294 \uc6d0\uc2dc\uc801\uc778 \uc9c4\ud759\uc758 \uc0c1\ud0dc\uc5d0\uc11c \uc9c0\uc131\uc744 \uac16\ucd98 \uc874\uc7ac\ub85c \uc131\uc7a5\ud588\ub2e4. \uadf8\ub294 \uc790\uc6b4\uc758 \ubc30\uad00 \uc18d\uc5d0 \uc0b4\uba74\uc11c \ub3c4\uc6c0\uc774 \ud544\uc694\ud55c \uc774\ub4e4\uc744 \ub3d5\uac70\ub098 \uc790\uc6b4\uc758 \ub9dd\uac00\uc9c4 \uae30\ubc18\uc2dc\uc124\uc744 \uc7ac\uac74\ud558\uae30 \uc704\ud574 \uc774\ub530\uae08 \ubaa8\uc2b5\uc744 \ub4dc\ub7ec\ub0b8\ub2e4.",
+            "allytips": [
+                "\uc804\uc7a5\uc5d0\uc11c \uc0b4\uc544\ub0a8\uc73c\ub824\uba74 \ubc18\ub4dc\uc2dc \ub5a8\uc5b4\uc838\ub098\uac04 \uc870\uac01\uc744 \ud761\uc218\ud574\uc57c \ud569\ub2c8\ub2e4.",
+                "\uc138\ud3ec \ubd84\uc5f4\uc744 \uc0ac\uc6a9\ud560 \uc218 \uc788\uc744 \ub54c\ub294 \uc801\uc774 \uac08\ub77c\uc9c4 \ubab8 \uc870\uac01\uc744 \ucc98\uce58\ud558\uae30 \uc5b4\ub824\uc6b4 \uacf3\uc73c\ub85c \uac00\uc11c \uc8fd\ub294 \uac8c \uc720\ub9ac\ud569\ub2c8\ub2e4.",
+                "\uc801\uc774 \ub300\uc751\ud560 \ud2c8\uc774 \uc5c6\ub3c4\ub85d, \uc0c8\ucd1d \ubc1c\uc0ac\ub294 \uc804\uc7a5\uc758 \uc548\uac1c \uc18d\uc5d0 \uc228\uc5b4\uc11c \ucda9\uc804\ud558\uc138\uc694."
+            ],
+            "enemytips": [
+                "\uc790\ud06c\ub294 \ubab8\uc5d0\uc11c \ub5a8\uc5b4\uc838\ub098\uac04 \uc870\uac01\uc744 \ud761\uc218\ud574 \uccb4\ub825\uc744 \ud68c\ubcf5\ud569\ub2c8\ub2e4. \uc774 \uc870\uac01\uc744 \ubc1f\uc544 \uc73c\uae68\uc138\uc694.",
+                "\uc790\ud06c\uac00 \uc8fd\uc5c8\uc744 \ub54c \uac08\ub77c\uc838\ub098\uac04 \uc870\uac01\ub4e4\uc744 \uac01\uac01 \ucc98\uce58\ud558\uc5ec \ubd80\ud65c\ud558\uc9c0 \ubabb\ud558\uac8c \ub9c9\uc73c\uc138\uc694.",
+                "\uc790\ud06c\uac00 \uc0c8\ucd1d \ubc1c\uc0ac\ub97c \ucda9\uc804 \uc911\uc77c \ub54c\ub294 \uce68\ubb35, \uae30\uc808, \uc18d\ubc15, \ub744\uc6b0\uae30\ub85c \ub04a\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+            ],
+            "tags": [
+                "Tank",
+                "Fighter"
+            ],
+            "partype": "\uc5c6\uc74c",
+            "info": {
+                "attack": 3,
+                "defense": 7,
+                "magic": 7,
+                "difficulty": 8
+            },
+            "stats": {
+                "hp": 615,
+                "hpperlevel": 95,
+                "mp": 0,
+                "mpperlevel": 0,
+                "movespeed": 340,
+                "armor": 33,
+                "armorperlevel": 3.5,
+                "spellblock": 32,
+                "spellblockperlevel": 1.25,
+                "attackrange": 175,
+                "hpregen": 8,
+                "hpregenperlevel": 0.5,
+                "mpregen": 0,
+                "mpregenperlevel": 0,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 60,
+                "attackdamageperlevel": 3.4,
+                "attackspeedperlevel": 1.6,
+                "attackspeed": 0.736
+            },
+            "spells": [
+                {
+                    "id": "ZacQ",
+                    "name": "\ud0c4\uc131 \uc8fc\uba39",
+                    "description": "\uc790\ud06c\uac00 \ud314\uc744 \ucb49 \ubed7\uc5b4 \uc801\uc744 \ubd99\uc7a1\uc2b5\ub2c8\ub2e4. \ub2e4\ub978 \uc801\uc744 \uacf5\uaca9\ud558\uba74 \ub458\uc744 \uc11c\ub85c\uc5d0\uac8c \ub358\uc838 \ucda9\ub3cc\ud558\uac8c \ud569\ub2c8\ub2e4.",
+                    "tooltip": "\uc790\ud06c\uac00 \ud314\uc744 \ubed7\uc5b4 \ucc98\uc74c \ub9de\ud78c \uc801\uc744 \ubd99\uc7a1\uace0 <magicDamage>{{ damagetooltip }}\uc758 \ub9c8\ubc95 \ud53c\ud574</magicDamage>\ub97c \uc785\ud788\uba70 \uc7a0\uae50 \ub3d9\uc548 <status>\ub454\ud654</status>\uc2dc\ud0b5\ub2c8\ub2e4. \uc790\ud06c\uc758 \ub2e4\uc74c \uae30\ubcf8 \uacf5\uaca9\uc740 \uc0ac\uac70\ub9ac\uac00 \uc99d\uac00\ud558\uba70 \ub3d9\uc77c\ud55c \ud53c\ud574\ub97c \uc785\ud788\uace0 <status>\ub454\ud654</status>\uc2dc\ud0b5\ub2c8\ub2e4. <br /><br />\uc790\ud06c\uac00 <i>\ub2e4\ub978</i> \uc801\uc5d0\uac8c \uae30\ubcf8 \uacf5\uaca9\uc744 \uac00\ud558\uba74 \ub458\uc744 <status>\uacf5\uc911\uc73c\ub85c</status> \ub744\uc6cc \uc62c\ub824 \uc11c\ub85c\uc5d0\uac8c \ub358\uc9d1\ub2c8\ub2e4. \ucda9\ub3cc \uc2dc \ud574\ub2f9 \uc801\uacfc \uc8fc\ubcc0 \uc801\uc740 <magicDamage>{{ damagetooltip }}\uc758 \ub9c8\ubc95 \ud53c\ud574</magicDamage>\ub97c \uc785\uc73c\uba70 \uc7a0\uae50 \ub3d9\uc548 <status>\ub454\ud654</status>\ud569\ub2c8\ub2e4.",
+                    "leveltip": {
+                        "label": [
+                            "\ud53c\ud574\ub7c9",
+                            "\uc7ac\uc0ac\uc6a9 \ub300\uae30\uc2dc\uac04"
+                        ],
+                        "effect": [
+                            "{{ e1 }} -> {{ e1NL }}",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        15,
+                        13.5,
+                        12,
+                        10.5,
+                        9
+                    ],
+                    "cooldownBurn": "15/13.5/12/10.5/9",
+                    "cost": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "costBurn": "0",
+                    "datavalues": {},
+                    "effect": [
+                        null,
+                        [
+                            40,
+                            55,
+                            70,
+                            85,
+                            100
+                        ],
+                        [
+                            8,
+                            8,
+                            8,
+                            8,
+                            8
+                        ],
+                        [
+                            800,
+                            800,
+                            800,
+                            800,
+                            800
+                        ],
+                        [
+                            -0.4,
+                            -0.4,
+                            -0.4,
+                            -0.4,
+                            -0.4
+                        ],
+                        [
+                            0.5,
+                            0.5,
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        [
+                            2.5,
+                            2.5,
+                            2.5,
+                            2.5,
+                            2.5
+                        ],
+                        [
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000
+                        ],
+                        [
+                            700,
+                            700,
+                            700,
+                            700,
+                            700
+                        ],
+                        [
+                            300,
+                            300,
+                            300,
+                            300,
+                            300
+                        ],
+                        [
+                            300,
+                            300,
+                            300,
+                            300,
+                            300
+                        ]
+                    ],
+                    "effectBurn": [
+                        null,
+                        "40/55/70/85/100",
+                        "8",
+                        "800",
+                        "-0.4",
+                        "0.5",
+                        "2.5",
+                        "1000",
+                        "700",
+                        "300",
+                        "300"
+                    ],
+                    "vars": [],
+                    "costType": "% ({{ healthcosttooltip }}) \uc18c\ubaa8",
+                    "maxammo": "-1",
+                    "range": [
+                        800,
+                        800,
+                        800,
+                        800,
+                        800
+                    ],
+                    "rangeBurn": "800",
+                    "image": {
+                        "full": "ZacQ.png",
+                        "sprite": "spell14.png",
+                        "group": "spell",
+                        "x": 192,
+                        "y": 144,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "resource": "\ud604\uc7ac \uccb4\ub825\uc758 {{ e2 }}% ({{ healthcosttooltip }}) \uc18c\ubaa8"
+                },
+                {
+                    "id": "ZacW",
+                    "name": "\ubd88\uc548\uc815 \ubb3c\uc9c8",
+                    "description": "\uc790\ud06c\uc758 \ubab8\uc774 \ud3ed\ubc1c\ud558\uba70 \uc8fc\uc704 \uc801\ub4e4\uc5d0\uac8c \ub300\uc0c1 \ucd5c\ub300 \uccb4\ub825\uc758 \uc77c\uc815 \ube44\uc728\uc5d0 \ud574\ub2f9\ud558\ub294 \ub9c8\ubc95 \ud53c\ud574\ub97c \uc785\ud799\ub2c8\ub2e4.",
+                    "tooltip": "\uc790\ud06c\uc758 \ubab8\uc774 \ud130\uc838\uc11c \uc8fc\uc704\uc5d0 \uc788\ub294 \uc801 \ubaa8\ub450\uc5d0\uac8c <magicDamage>{{ basedamage }}+\ucd5c\ub300 \uccb4\ub825\uc758 {{ displaypercentdamage }}\uc5d0 \ud574\ub2f9\ud558\ub294 \ub9c8\ubc95 \ud53c\ud574</magicDamage>\ub97c \uc785\ud799\ub2c8\ub2e4.<br /><br /><keywordMajor>\uc870\uac01</keywordMajor>\uc744 \ud761\uc218\ud558\uba74 \uc774 \uc2a4\ud0ac\uc758 \uc7ac\uc0ac\uc6a9 \ub300\uae30\uc2dc\uac04\uc774 1\ucd08 \uac10\uc18c\ud569\ub2c8\ub2e4.",
+                    "leveltip": {
+                        "label": [
+                            "\uae30\ubcf8 \ud53c\ud574\ub7c9",
+                            "\ucd5c\ub300 \uccb4\ub825 %"
+                        ],
+                        "effect": [
+                            "{{ basedamage }} -> {{ basedamageNL }}",
+                            "{{ basemaxhealthdamage*100.000000 }}% -> {{ basemaxhealthdamagenl*100.000000 }}%"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "cooldownBurn": "5",
+                    "cost": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "costBurn": "0",
+                    "datavalues": {},
+                    "effect": [
+                        null,
+                        [
+                            25,
+                            40,
+                            55,
+                            70,
+                            85
+                        ],
+                        [
+                            4,
+                            4,
+                            4,
+                            4,
+                            4
+                        ],
+                        [
+                            0.04,
+                            0.05,
+                            0.06,
+                            0.07,
+                            0.08
+                        ],
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            200,
+                            200,
+                            200,
+                            200,
+                            200
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "effectBurn": [
+                        null,
+                        "25/40/55/70/85",
+                        "4",
+                        "0.04/0.05/0.06/0.07/0.08",
+                        "1",
+                        "200",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "vars": [],
+                    "costType": "% ({{ tooltiphealthcost }}) \uc18c\ubaa8",
+                    "maxammo": "-1",
+                    "range": [
+                        350,
+                        350,
+                        350,
+                        350,
+                        350
+                    ],
+                    "rangeBurn": "350",
+                    "image": {
+                        "full": "ZacW.png",
+                        "sprite": "spell14.png",
+                        "group": "spell",
+                        "x": 240,
+                        "y": 144,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "resource": "\ud604\uc7ac \uccb4\ub825\uc758 {{ e2 }}% ({{ tooltiphealthcost }}) \uc18c\ubaa8"
+                },
+                {
+                    "id": "ZacE",
+                    "name": "\uc0c8\ucd1d \ubc1c\uc0ac",
+                    "description": "\uc790\ud06c\uac00 \uc9c0\uba74\uc5d0 \ub450 \ud314\uc744 \ubd99\uc774\uace0 \ub4a4\ub85c \ub298\uc5b4\ub09c \ub2e4\uc74c, \uc804\ubc29\uc73c\ub85c \ubab8\uc744 \ub0a0\ub9bd\ub2c8\ub2e4.",
+                    "tooltip": "<charge>\ucda9\uc804 \uc2dc\uc791:</charge> \uc790\ud06c\uac00 {{ e4 }}\ucd08 \ub3d9\uc548 \uc790\uc2e0\uc758 \ubab8\uc744 \ud33d\ud33d\ud788 \ub2f9\uaca8 \ub3cc\uc9c4\ud560 \uc900\ube44\ub97c \ud569\ub2c8\ub2e4.<br /><br /><release>\ubc1c\uc0ac:</release> \uc790\ud06c\uac00 \uc790\uc2e0\uc758 \ubab8\uc744 \ub0a0\ub824 \ucc29\uc9c0\ud558\ub294 \uacf3\uc5d0 \uc788\ub294 \uc801\uc744 \ucda9\uc804 \uc2dc\uac04\uc5d0 \ube44\ub840\ud574 \ucd5c\ub300 {{ maxstun }}\ucd08 \ub3d9\uc548 <status>\uacf5\uc911\uc73c\ub85c</status> \ub744\uc6cc \uc62c\ub9ac\uace0 <magicDamage>{{ damage }}\uc758 \ub9c8\ubc95 \ud53c\ud574</magicDamage>\ub97c \uc785\ud799\ub2c8\ub2e4. \uc801 \ucc54\ud53c\uc5b8\uc744 \ud558\ub098 \ub9de\ud790 \ub54c\ub9c8\ub2e4 <keywordMajor>\uc870\uac01</keywordMajor>\uc774 \ud558\ub098\uc529 \uc0dd\uc131\ub429\ub2c8\ub2e4.",
+                    "leveltip": {
+                        "label": [
+                            "\ud53c\ud574\ub7c9",
+                            "\uc0ac\uac70\ub9ac",
+                            "\uc7ac\uc0ac\uc6a9 \ub300\uae30\uc2dc\uac04"
+                        ],
+                        "effect": [
+                            "{{ e1 }} -> {{ e1NL }}",
+                            "{{ e3 }} -> {{ e3NL }}",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 5,
+                    "cooldown": [
+                        24,
+                        21,
+                        18,
+                        15,
+                        12
+                    ],
+                    "cooldownBurn": "24/21/18/15/12",
+                    "cost": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "costBurn": "0",
+                    "datavalues": {},
+                    "effect": [
+                        null,
+                        [
+                            60,
+                            110,
+                            160,
+                            210,
+                            260
+                        ],
+                        [
+                            4,
+                            4,
+                            4,
+                            4,
+                            4
+                        ],
+                        [
+                            1200,
+                            1350,
+                            1500,
+                            1650,
+                            1800
+                        ],
+                        [
+                            0.9,
+                            1,
+                            1.1,
+                            1.2,
+                            1.3
+                        ],
+                        [
+                            0.5,
+                            0.5,
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        [
+                            500,
+                            500,
+                            500,
+                            500,
+                            500
+                        ],
+                        [
+                            1350,
+                            1350,
+                            1350,
+                            1350,
+                            1350
+                        ],
+                        [
+                            0.6,
+                            0.6,
+                            0.6,
+                            0.6,
+                            0.6
+                        ],
+                        [
+                            265,
+                            265,
+                            265,
+                            265,
+                            265
+                        ],
+                        [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ]
+                    ],
+                    "effectBurn": [
+                        null,
+                        "60/110/160/210/260",
+                        "4",
+                        "1200/1350/1500/1650/1800",
+                        "0.9/1/1.1/1.2/1.3",
+                        "0.5",
+                        "500",
+                        "1350",
+                        "0.6",
+                        "265",
+                        "1"
+                    ],
+                    "vars": [],
+                    "costType": "% ({{ healthcosttooltip }}) \uc18c\ubaa8",
+                    "maxammo": "-1",
+                    "range": [
+                        300,
+                        300,
+                        300,
+                        300,
+                        300
+                    ],
+                    "rangeBurn": "300",
+                    "image": {
+                        "full": "ZacE.png",
+                        "sprite": "spell14.png",
+                        "group": "spell",
+                        "x": 288,
+                        "y": 144,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "resource": "\ud604\uc7ac \uccb4\ub825\uc758 {{ e2 }}% ({{ healthcosttooltip }}) \uc18c\ubaa8"
+                },
+                {
+                    "id": "ZacR",
+                    "name": "\ubc14\uc6b4\uc2a4!",
+                    "description": "\uc790\ud06c\uac00 4\ud68c \ud280\uc5b4 \uc62c\ub77c \uc801\uc911\ub2f9\ud55c \uc801\uc744 \uacf5\uc911\uc5d0 \ub744\uc6b0\uace0 \ub454\ud654\uc2dc\ud0b5\ub2c8\ub2e4.",
+                    "tooltip": "<spellPassive>\uae30\ubcf8 \uc9c0\uc18d \ud6a8\uacfc:</spellPassive> <keywordMajor>\uc870\uac01</keywordMajor>\ub2f9 <spellName>\uc138\ud3ec \ubd84\uc5f4</spellName> \ud68c\ubcf5\ub7c9\uc774 <healing>{{ passivehealingtotaltooltip }}\uc758 \uccb4\ub825</healing>\uae4c\uc9c0 \uc99d\uac00\ud569\ub2c8\ub2e4.<br /><br /><spellActive>\uc0ac\uc6a9 \uc2dc:</spellActive> \uc790\ud06c\uac00 {{ bounces }}\ud68c \ud280\uc5b4 \uc624\ub985\ub2c8\ub2e4. \uc790\ud06c\uc5d0\uac8c \ucc98\uc74c \ub9de\uc740 \uc801\uc740 \ub4a4\ub85c <status>\ubc00\ub9ac\uba70</status> <magicDamage>{{ damageperbounce }}\uc758 \ub9c8\ubc95 \ud53c\ud574</magicDamage>\ub97c \uc785\uc2b5\ub2c8\ub2e4. \uc774\ud6c4\uc5d0\ub294 \ub9de\uc744 \ub54c\ub9c8\ub2e4 <magicDamage>{{ damagepersubsequentbounce }}\uc758 \ub9c8\ubc95 \ud53c\ud574</magicDamage>\ub97c \uc785\uace0 {{ slowduration }}\ucd08 \ub3d9\uc548 {{ slowamount*100 }}% <status>\ub454\ud654</status>\ud569\ub2c8\ub2e4.<br /><br />\uc790\ud06c\ub294 <speed>\uc774\ub3d9 \uc18d\ub3c4\uac00 {{ endingms*100 }}%</speed>\uae4c\uc9c0 \uc810\uc810 \uc99d\uac00\ud558\uba70 \ud280\uc5b4 \uc624\ub974\ub294 \ub3d9\uc548 <spellName>\ubd88\uc548\uc815 \ubb3c\uc9c8</spellName> \uc2a4\ud0ac\uc744 \uc0ac\uc6a9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+                    "leveltip": {
+                        "label": [
+                            "\uae30\ubcf8 \ubc18\ub3d9 \ud53c\ud574\ub7c9",
+                            "\ucd94\uac00 \uc870\uac01 \ud68c\ubcf5\ub7c9",
+                            "\uc7ac\uc0ac\uc6a9 \ub300\uae30\uc2dc\uac04"
+                        ],
+                        "effect": [
+                            "{{ basedamagebounce }} -> {{ basedamagebounceNL }}",
+                            "{{ additionalchunkhealing }}% -> {{ additionalchunkhealingNL }}%",
+                            "{{ cooldown }} -> {{ cooldownNL }}"
+                        ]
+                    },
+                    "maxrank": 3,
+                    "cooldown": [
+                        130,
+                        115,
+                        100
+                    ],
+                    "cooldownBurn": "130/115/100",
+                    "cost": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "costBurn": "0",
+                    "datavalues": {},
+                    "effect": [
+                        null,
+                        [
+                            150,
+                            250,
+                            350
+                        ],
+                        [
+                            1.1,
+                            1.1,
+                            1.1
+                        ],
+                        [
+                            700,
+                            850,
+                            1000
+                        ],
+                        [
+                            -0.3,
+                            -0.4,
+                            -0.5
+                        ],
+                        [
+                            2.5,
+                            2.5,
+                            2.5
+                        ],
+                        [
+                            275,
+                            275,
+                            275
+                        ],
+                        [
+                            300,
+                            300,
+                            300
+                        ],
+                        [
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            0.25,
+                            0.25,
+                            0.25
+                        ],
+                        [
+                            0.1,
+                            0.1,
+                            0.1
+                        ]
+                    ],
+                    "effectBurn": [
+                        null,
+                        "150/250/350",
+                        "1.1",
+                        "700/850/1000",
+                        "-0.3/-0.4/-0.5",
+                        "2.5",
+                        "275",
+                        "300",
+                        "1",
+                        "0.25",
+                        "0.1"
+                    ],
+                    "vars": [],
+                    "costType": "\uc18c\ubaa8\uac12 \uc5c6\uc74c",
+                    "maxammo": "-1",
+                    "range": [
+                        300,
+                        300,
+                        300
+                    ],
+                    "rangeBurn": "300",
+                    "image": {
+                        "full": "ZacR.png",
+                        "sprite": "spell14.png",
+                        "group": "spell",
+                        "x": 336,
+                        "y": 144,
+                        "w": 48,
+                        "h": 48
+                    },
+                    "resource": "\uc18c\ubaa8\uac12 \uc5c6\uc74c"
+                }
+            ],
+            "passive": {
+                "name": "\uc138\ud3ec \ubd84\uc5f4",
+                "description": "\uc790\ud06c\ub294 \uc2a4\ud0ac\ub85c \uc801\uc744 \ub9de\ud790 \ub54c\ub9c8\ub2e4 \ubab8\uc5d0\uc11c \uc870\uac01\uc774 \ub5a8\uc5b4\uc838 \ub098\uac11\ub2c8\ub2e4. \uc774 \uc870\uac01\ub4e4\uc744 \ub2e4\uc2dc \ud761\uc218\ud558\uba74 \uccb4\ub825\uc744 \ud68c\ubcf5\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc790\ud06c\ub294 \uce58\uba85\uc0c1\uc744 \uc785\uc73c\uba74 4\uc870\uac01\uc73c\ub85c \uac08\ub77c\uc84c\ub2e4\uac00 \ub2e4\uc2dc \ud569\uccd0\uc9c0\ub824\uace0 \ubaa8\uc785\ub2c8\ub2e4. \ubab8 \uc870\uac01 \uc911 \ud558\ub098\ub77c\ub3c4 \uc0dd\uc874\ud560 \uacbd\uc6b0, \uc0b4\uc544\ub0a8\uc740 \uc870\uac01\uc758 \uccb4\ub825\uc5d0 \ube44\ub840\ud55c \uccb4\ub825\uc744 \uac00\uc9c0\uace0 \ubd80\ud65c\ud569\ub2c8\ub2e4. \uac01\uac01\uc758 \uc870\uac01\uc740 \uc790\ud06c\uc758 \ucd5c\ub300 \uccb4\ub825, \ubc29\uc5b4\ub825\uacfc \ub9c8\ubc95 \uc800\ud56d\ub825\uc758 \uc77c\ubd80\ub97c \ubcf4\uc720\ud569\ub2c8\ub2e4. \uc774 \uc2a4\ud0ac\uc758 \uc7ac\uc0ac\uc6a9 \ub300\uae30\uc2dc\uac04\uc740 5\ubd84\uc785\ub2c8\ub2e4.",
+                "image": {
+                    "full": "ZacPassive.png",
+                    "sprite": "passive4.png",
+                    "group": "passive",
+                    "x": 240,
+                    "y": 96,
+                    "w": 48,
+                    "h": 48
+                }
+            },
+            "recommended": [
+                {
+                    "champion": "Zac",
+                    "title": "Beginner",
+                    "map": "SR",
+                    "mode": "INTRO",
+                    "type": "riot",
+                    "customTag": "",
+                    "extensionPage": false,
+                    "customPanel": null,
+                    "blocks": [
+                        {
+                            "type": "beginner_starter",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": 4,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "1054",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "beginner_starter",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": 5,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "1054",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "beginner_advanced",
+                            "recMath": true,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "1028",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3067",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3211",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "beginner_movementspeed",
+                            "recMath": true,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1029",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3047",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "beginner_legendaryitem",
+                            "recMath": true,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "beginner_morelegendaryitems",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "3068",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3742",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "champion": "Zac",
+                    "title": "ZacARAM",
+                    "map": "HA",
+                    "mode": "ARAM",
+                    "type": "riot",
+                    "customTag": "",
+                    "sortrank": 0,
+                    "extensionPage": false,
+                    "customPanel": null,
+                    "blocks": [
+                        {
+                            "type": "starting",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "2051",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 3,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essential",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3111",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3083",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "offensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3068",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3151",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "defensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3193",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3143",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3075",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "offmeta",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3116",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3194",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3190",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "consumables",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": true
+                                },
+                                {
+                                    "id": "2138",
+                                    "count": 1,
+                                    "hideCount": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "champion": "Zac",
+                    "title": "ZacFIRSTBLOOD",
+                    "map": "HA",
+                    "mode": "FIRSTBLOOD",
+                    "type": "riot",
+                    "customTag": "",
+                    "extensionPage": false,
+                    "customPanel": null,
+                    "blocks": [
+                        {
+                            "type": "starting",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "items": [
+                                {
+                                    "id": "1054",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "early",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "items": [
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3751",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1011",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essential",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "items": [
+                                {
+                                    "id": "3047",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3068",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "defensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "items": [
+                                {
+                                    "id": "3742",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3102",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3190",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3075",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "situational",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "items": [
+                                {
+                                    "id": "3800",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3151",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3001",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "startingjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "1039",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 3,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "earlyjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "3711",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3751",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essentialjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "1409",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3047",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3742",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "defensivejungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3102",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3190",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3075",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "situationaljungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "3800",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3151",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3001",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "consumables",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": true
+                                },
+                                {
+                                    "id": "2043",
+                                    "count": 1,
+                                    "hideCount": true
+                                },
+                                {
+                                    "id": "2138",
+                                    "count": 1,
+                                    "hideCount": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "champion": "Zac",
+                    "title": "ZacARAM",
+                    "map": "HA",
+                    "mode": "KINGPORO",
+                    "type": "riot",
+                    "customTag": "",
+                    "sortrank": 0,
+                    "extensionPage": false,
+                    "customPanel": null,
+                    "blocks": [
+                        {
+                            "type": "KingPoroSnax",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "items": [
+                                {
+                                    "id": "3680",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3681",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3682",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3683",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3684",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3685",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "starting",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "2051",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 3,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essential",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3111",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3083",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "offensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3068",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3151",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "defensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3193",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3143",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3075",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "offmeta",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3116",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3194",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3190",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "consumables",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": true
+                                },
+                                {
+                                    "id": "2138",
+                                    "count": 1,
+                                    "hideCount": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "champion": "Zac",
+                    "title": "ZacSL",
+                    "map": "NB",
+                    "mode": "NEXUSBLITZ",
+                    "type": "riot",
+                    "customTag": "",
+                    "sortrank": 0,
+                    "extensionPage": false,
+                    "useObviousCheckmark": false,
+                    "customPanel": null,
+                    "blocks": [
+                        {
+                            "type": "starting",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "4201",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "early",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3751",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1011",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essential",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3158",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3068",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "defensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3143",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3190",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3075",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3193",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "situational",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3194",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3742",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3083",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3001",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "startingjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "4101",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "earlyjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3751",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essentialjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "4103",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3158",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "defensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3143",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3190",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3075",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3193",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "situational",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3194",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3742",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3083",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3001",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "consumables",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": true
+                                },
+                                {
+                                    "id": "2138",
+                                    "count": 1,
+                                    "hideCount": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "champion": "Zac",
+                    "title": "ZacSR",
+                    "map": "SR",
+                    "mode": "CLASSIC",
+                    "type": "riot",
+                    "customTag": "",
+                    "sortrank": 0,
+                    "extensionPage": false,
+                    "useObviousCheckmark": false,
+                    "customPanel": null,
+                    "blocks": [
+                        {
+                            "type": "starting",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "1054",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "early",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3751",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1011",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "startingjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "1039",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "2031",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3340",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "earlyjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3706",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3751",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "1001",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essential",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "SummonerSmite",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3158",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3068",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "essentialjungle",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "SummonerSmite",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "1401",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3111",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3065",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "defensive",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3083",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3075",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3742",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "situational",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "3151",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3193",
+                                    "count": 1,
+                                    "hideCount": false
+                                },
+                                {
+                                    "id": "3109",
+                                    "count": 1,
+                                    "hideCount": false
+                                }
+                            ]
+                        },
+                        {
+                            "type": "consumables",
+                            "recMath": false,
+                            "recSteps": false,
+                            "minSummonerLevel": -1,
+                            "maxSummonerLevel": -1,
+                            "showIfSummonerSpell": "",
+                            "hideIfSummonerSpell": "",
+                            "appendAfterSection": "",
+                            "visibleWithAllOf": [
+                                ""
+                            ],
+                            "hiddenWithAnyOf": [
+                                ""
+                            ],
+                            "items": [
+                                {
+                                    "id": "2003",
+                                    "count": 1,
+                                    "hideCount": true
+                                },
+                                {
+                                    "id": "2138",
+                                    "count": 1,
+                                    "hideCount": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
