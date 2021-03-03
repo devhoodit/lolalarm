@@ -1,9 +1,17 @@
 import json
 import random
+import os
 
 class get_json(object):
+      
+      
+      
       def __init__(self):
-            with open('./json_cont/ddragon_version.json', 'r') as json_file:
+            
+            module_dir = os.path.dirname(__file__)
+            file_path = os.path.join(module_dir, 'json_cont/ddragon_version.json')
+            
+            with open(file_path, 'r') as json_file:
                   self.version = json.load(json_file)
 
       def champion_num_data(self, num):

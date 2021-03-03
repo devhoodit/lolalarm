@@ -1,5 +1,32 @@
-.tier {
-    list-style: none;
-    display: inline;
-    
+
+#icon_img, #solo_rank_img, #flex_rank_img {
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    display: block;
+    margin: 0px;
+}
+
+
+#profile_content {
+    padding: 0px;
+    width: 300px;
+    height: 100px;
+}
+
+.profile_info {
+    width: 1200px;
+    height: 100px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.profile_info tr td {
+    border: 1px solid gray;
+    padding: 0px;
 }
